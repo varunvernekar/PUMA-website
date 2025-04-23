@@ -1,0 +1,619 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+    background-color: rgba(255, 228, 196, 0.548);
+}
+.section1{
+    width: 100vw;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.top-header .fa-solid {
+    color: rgb(225, 163, 7);
+    font-size: large;
+    cursor: pointer;
+}
+.top-header a{
+    cursor: pointer;
+    color: black;
+    text-decoration: dashed;
+}
+header{
+    color: aliceblue;
+    width: 100vw;
+    height: 50px;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+header .menu{
+    
+    position: absolute;
+    padding: 6px;
+    left: 20px;
+    font-size: 25px;
+}
+.menu:hover{
+    opacity: 0.7;
+}
+.search:hover{
+    opacity: 0.7;
+}
+.profile:hover{
+    opacity: 0.7;
+}
+.cart:hover{
+    opacity: 0.7;
+    
+}
+
+
+header .search{
+    
+    position: absolute;
+    padding: 6px;
+    left: 80px;
+    font-size: 25px;
+}
+header .logo a{
+    
+    position: absolute;
+    padding: 6px;
+    left: 48%;
+    top: 3px;
+    font-size: 25px;
+    /* background-color: brown; */
+    background-image: url("logo1.png");
+    background-size:cover;
+    height: 60%;
+    width: 45px;
+    cursor: pointer;
+}
+header .profile{
+    
+    position: absolute;
+    padding: 6px;
+    left: 90%;
+    font-size: 25px;
+}
+header .cart{
+    
+    position: absolute;
+    padding: 6px;
+    left: 94%;
+    font-size: 25px;
+}
+.img1{
+    height: 100vh;
+    font-weight: 100vw;
+    background-image: url("Puma-Marketing.jpg");
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+
+.text1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: 30%;
+    left: 10px;
+}
+.text1 .para1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+
+.text2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: 40%;
+    right: 90px;
+    color: azure;
+}
+.text2 .para2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.section2{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("puma-section2.jpg");
+    background-size: cover;
+    position: relative;
+    isolation: isolate;
+    color: aliceblue;
+
+}
+.section2::after{
+    content: '';
+    background-color: rgba(4, 14, 19, 0.734);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    inset: 0;
+    z-index: -1;
+
+}
+
+.whatsnew{
+    font-size: 3.5rem;
+    padding-left: 30%;
+    padding-top: 1.5rem;
+    margin: 1.5rem;
+   
+
+}
+.start{
+    position: absolute;
+    left: 20px;
+    top: 30%;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.8rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.start .para1{
+    font-size: 1.5rem;
+
+}
+#button1{
+    padding: 0.5rem;
+    margin: 0.2rem;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    position: absolute;
+    left: 47px;
+    top: 46%;
+    border: 0.5px solid black;
+    color: aliceblue;
+    cursor:pointer;
+    background: linear-gradient(247deg, #7179e4a8, #01072dbd);
+}
+#button1:hover{
+    transform: scale(1.1);
+    border: 1px solid rgb(255, 255, 255);
+}
+.offer1{
+    font-size: 2rem;
+    position: absolute;
+    right: 18%;
+    top: 140px;
+}
+
+.block1{
+    position: absolute;
+    right: 0;
+    height: 85%;
+    width: 60%;
+    /* background-color: rgb(254, 254, 254); */
+}
+
+.white{
+    height: 80%;
+    width: 45%;
+    /* border: 1px solid black; */
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    background-image: url(white-shirt.png);
+    object-fit: cover;
+    overflow: hidden;
+    cursor: pointer;
+}
+.white:hover{
+    transform: rotateY(-10deg);
+}
+.black{
+    height: 80%;
+    width: 45%;
+    /* border: 1px solid black; */
+    position: absolute;
+    bottom: 10px;
+    right: 80px;
+    background-image: url(red-shirt.png);
+    object-fit: cover;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+.black:hover{
+    transform: rotateY(-10deg);
+}
+.section3{
+    height: 70vh;
+    width: 100vw;
+    background-color: bisque;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box1 ,.box2,.box3,.box4{
+    width: 20rem;
+    height: 20rem;
+    background: linear-gradient(45deg,rgba(244, 166, 78, 0.279),rgba(255, 237, 71, 0.559));
+    backdrop-filter: blur(2px);
+    border-radius: 8px;
+    cursor: pointer;
+    
+
+}
+.box1:hover{
+    border: 1px solid rgb(59, 58, 58);
+
+}
+.box2:hover{
+    border: 1px solid rgb(59, 58, 58);
+
+}
+.box3:hover{
+    border: 1px solid rgb(59, 58, 58);
+
+}
+.box4:hover{
+    border: 1px solid rgb(59, 58, 58);
+
+}
+.box1 p{
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.subox1{
+    width: 85%;
+    height: 75%;
+    /* background-color: black; */
+    position: absolute;
+    bottom: 5px;
+    left: 7.5%;
+    background-image: url("puma-shoes11.png");
+    background-size:cover;
+    transition: all 0.5s ease-in-out;
+}
+
+.subox1:hover{
+    transform: rotateZ(-30deg) scale(1.1) translateY(-50px) translateX(-20px);
+        /* bottom: 10px; */
+}
+
+.box2 p{
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.subox2{
+    width: 85%;
+    height: 75%;
+    /* background-color: black; */
+    position: absolute;
+    bottom: 5px;
+    left: 7.5%;
+    background-image: url("puma-shoes2.png");
+    background-size:cover;
+    transition: all 0.5s ease-in-out;
+}
+
+.subox2:hover{
+    transform: rotateZ(-30deg) scale(1.1) translateY(-50px) translateX(-20px);
+        /* bottom: 10px; */
+}
+
+
+.box3 p{
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.subox3{
+    width: 85%;
+    height: 75%;
+    /* background-color: black; */
+    position: absolute;
+    bottom: 5px;
+    left: 7.5%;
+    background-image: url("puma-shoes3.png");
+    background-size:cover;
+    transition: all 0.5s ease-in-out;
+}
+
+.subox3:hover{
+    transform: rotateZ(-30deg) scale(1.1) translateY(-50px) translateX(-20px);
+        /* bottom: 10px; */
+}
+
+.box4 p{
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.subox4{
+    width: 85%;
+    height: 75%;
+    /* background-color: black; */
+    position: absolute;
+    bottom: 5px;
+    left: 7.5%;
+    background-image: url("puma-shoes4.png");
+    background-size:cover;
+    transition: all 0.5s ease-in-out;
+}
+
+.subox4:hover{
+    transform: rotateZ(-30deg) scale(1.1) translateY(-50px) translateX(-20px);
+        /* bottom: 10px; */
+}
+
+.section4{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("rcb-group.jpg");
+    background-size: cover;
+    position: relative;
+    isolation: isolate;
+    color: aliceblue;
+    display:flex;
+    justify-content: center;
+    place-content: center;
+    position: relative;
+    
+
+}
+.section4::after{
+    content: '';
+    background-color: rgba(4, 14, 19, 0.734);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    inset: 0;
+    z-index: -1;
+
+}
+
+.rcbxpuma{
+    font-size: 2.5rem;
+    position: absolute;
+    left: 40%;
+    padding: 2rem;
+}
+.pumaxrcb{
+    font-size: 2rem;
+    position: absolute;
+    left: 25%;
+    padding: 2rem;
+    top: 3rem;
+    margin: 1rem;
+}
+.block2{
+    /* background-image: linear-gradient(to top,black,grey,white); */
+    backdrop-filter: blur(5px);
+    height: 75%;
+    width: 80%;
+    position: absolute;
+    bottom: 10px;
+    border-radius: 10px;
+    isolation: isolate;
+    border: 1px solid rgb(93, 88, 88);
+    
+    
+}
+.block2::after{
+    background-image: url("puma-logo.png");
+    background-size: cover;
+    background-color: rgba(4, 14, 19, 0.734);
+    height: 75%;
+    width: 90%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    inset: 0;
+    z-index: -1;
+}
+.shopnow a{
+    color: aliceblue;
+   display: flex;
+   /* position: ; */
+   justify-content: center;
+   place-content: center;
+   padding: 1rem;
+   font-size: 1.5rem;
+}
+.block2 .red{
+    height: 82%;
+    width: 32%;
+    background-image: url("rcb-jersey.png");
+    background-size: cover;
+    position: absolute;
+    bottom: 10px;
+    left: 15%;
+    cursor: pointer;
+}
+
+
+.block2 .green{
+    height: 80%;
+    width: 26%;
+    background-image: url("rcb-jersey-green.png");
+    background-size: cover;
+    position: absolute;
+    bottom: 20px;
+    right: 21%;
+    cursor: pointer;
+}
+
+.shop-now1{
+    padding: 0.5rem;
+    margin: 0.2rem;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    position: absolute;
+    left: 5%;
+    bottom: 20%;
+    border: 0.5px solid black;
+    color: aliceblue;
+    cursor:pointer;
+    background: linear-gradient(45deg, #fb2323a8 5%, #010a46bd );
+
+}
+.shop-now1:hover{
+    transform: scale(1.1);
+    border: 1px solid rgb(255, 255, 255);
+}
+.shop-now2{
+    padding: 0.5rem;
+    margin: 0.2rem;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    position: absolute;
+    right: 5%;
+    bottom: 20%;
+    border: 0.5px solid black;
+    color: aliceblue;
+    cursor:pointer;
+    background: linear-gradient(45deg, #1dff60a8 5%, #010b4ebd);
+}
+.shop-now2:hover{
+    transform: scale(1.1);
+    border: 1px solid rgb(255, 255, 255);
+}
+.section5{
+    height: 80vh;
+    width: 100vw;
+    background:linear-gradient(to bottom,black 10%,grey,white);
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.section5 .text1{
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 2rem;
+    left: 35%;
+
+}
+.capstext{
+    font-size: 1.5rem;
+    color: white;
+    position: absolute;
+    top: 18%;
+}
+.container {
+    position: absolute;
+    bottom: 1.5rem;
+    height: 70%;
+    width: 90%;
+    background: linear-gradient(to top,grey,white 90%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.capbox1, .capbox2, .capbox3 {
+    height: 80%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background:linear-gradient(black,darkgrey,grey);
+    position: relative; /* For subbox positioning */
+    border-radius: 5px;
+    margin: 1rem;
+    cursor: pointer;
+
+
+
+}
+.capbox1 p{
+    color: white;
+    position: absolute;
+    padding: 1rem;
+    left: 12%;
+    top: 1px;
+    font-size: 1.5rem;
+}
+
+
+
+.capbox2 p{
+    color: white;
+    position: absolute;
+    padding: 1rem;
+    left: 12%;
+    top: 1px;
+    font-size: 1.5rem;
+}
+.capbox3 p{
+    color: white;
+    position: absolute;
+    padding: 1rem;
+    left: 12%;
+    top: 1px;
+    font-size: 1.5rem;
+}
+
+.subbox1{
+    height: 80%;
+    width: 90%;
+    background-image: url("Screenshot 2025-04-22 190314.png");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    bottom: 10px;
+}
+.subbox2  {
+    height: 80%;
+    width: 90%;
+    background-image: url("cap3.png");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    bottom: 10px;
+}
+
+.subbox3  {
+    height: 80%;
+    width: 90%;
+    background-image: url("cap2.png");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    bottom: 10px;
+}
+
+.capbox1:hover,
+.capbox2:hover,
+.capbox3:hover {
+    border: 1px solid white;
+    
+}
+
+/*--------------------------------------------------------------*/
+
