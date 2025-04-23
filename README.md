@@ -20,6 +20,6 @@ A visually striking and responsive replica of the official Puma website, built u
 - Google Fonts  
 - Responsive Media Queries  
 
----
-
+---...
+<!-- Trigger rebuild -->
 > ✨
